@@ -1,0 +1,115 @@
+.todo-list{
+    width: 600px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.todo-list input{
+
+    width: 500px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid gray ;
+}
+
+button{
+
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+    cursor: pointer;
+}
+.add{
+    border-radius: 30px;
+    
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+.todo-list2{
+    width: 600px;
+    border-radius: 5px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+}
+span{
+    margin: 0px auto;
+    font-size: x-large;
+    margin-right: 10px;
+    font-family:'Courier New', Courier, monospace;
+}
+.complete {
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .completed {
+  color: blue;
+  border: 1px solid blue;
+  }
+  .completed:hover {
+    background-color: blue; 
+  }
+  
+  .not-completed {
+    color: gray;
+    border: 1px solid gray;
+  }
+  .not-completed:hover {
+    background-color: gray; 
+  }
+  
+  .dalete{
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
+
+.dalete:hover{
+    background-color: red;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
